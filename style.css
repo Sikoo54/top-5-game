@@ -105,47 +105,7 @@ footer a {
   text-decoration: none;
 }
 
-/* 768 */
-@media (max-width: 768px) {
-  header h2 {
-    padding-left: 20px;
-  }
-
-  nav {
-    margin: auto;
-    margin-right: 0px;
-  }
-
-  nav a {
-    margin: 0 10px;
-    text-decoration: none;
-  }
-
-  .article-container {
-    flex-direction: column;
-  }
-
-  article h2 {
-    margin-top: 25px;
-    font-size: 32px;
-    margin-bottom: 0px;
-    text-align: center;
-  }
-
-  article p {
-    font-size: 20px;
-  }
-
-  aside {
-    margin: 0px;
-    padding: 20px;
-    margin-left: 0px;
-    width: 1400px;
-    font-size: 12px;
-  }
-}
-
-/* 1280 */
+/* --------------- 1280 --------------- */
 @media (max-width: 1280px) {
   header h2 {
     padding-left: 20px;
@@ -163,6 +123,10 @@ footer a {
 
   .article-container {
     flex-direction: column;
+  }
+
+  .article-content {
+    padding: 0px 12px;
   }
 
   article h2 {
@@ -183,9 +147,68 @@ footer a {
     width: 1400px;
     font-size: 14px;
   }
+
+  ul {
+    padding: 0;
+    list-style-type: disc;
+  }
 }
 
-/* ----- 420px ----- */
+/* --------------- 768 --------------- */
+@media (max-width: 768px) {
+  header h2 {
+    padding-left: 20px;
+  }
+
+  nav {
+    margin: auto;
+    margin-right: 0px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .article-container {
+    flex-direction: column;
+  }
+
+  .article-content {
+    padding: 0px 10px;
+  }
+
+  article h2 {
+    margin-top: 25px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  article p {
+    font-size: 16px;
+  }
+
+  article img {
+    width: 200px;
+    height: 200px;
+  }
+
+  aside {
+    margin: 0px;
+    padding: 20px;
+    margin-left: 0px;
+    width: 1400px;
+    font-size: 12px;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: disc;
+  }
+}
+
+/* --------------- 420px --------------- */
 @media (max-width: 500px) {
   header h2 {
     padding-left: 20px;
@@ -205,6 +228,10 @@ footer a {
     flex-direction: column;
   }
 
+  article {
+    padding: 40px 16px;
+  }
+
   article h2 {
     margin-top: 25px;
     font-size: 18px;
@@ -213,7 +240,7 @@ footer a {
   }
 
   article p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   article img {
@@ -222,7 +249,7 @@ footer a {
   }
 
   .article-content {
-    padding: 0px 10px;
+    padding: 0px 0px;
   }
 
   aside {
@@ -230,7 +257,7 @@ footer a {
     padding: 10px;
     padding-left: 18px;
     margin-left: 0px;
-    width: 1400px;
+    width: 100px;
     font-size: 10px;
   }
 
