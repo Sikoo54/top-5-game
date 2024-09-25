@@ -79,10 +79,14 @@ article p {
   padding-top: 4px;
 }
 
+article a {
+  align-self: center;
+}
+
 img {
   height: 400px;
   width: 400px;
-  align-self: center;
+
   transition: transform 0.2s ease-in-out, box-shadow 0.2s;
   z-index: 1;
 }
